@@ -28,6 +28,13 @@ const benefits: Array<BenefitType> = [
   },
 ];
 
+const container = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.2 },
+  },
+};
+
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -39,17 +46,22 @@ const Benefits = ({ setSelectedPage }: Props) => {
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
         {/* HEADER */}
-        <div className="md:my-5 md:w-3/5">
+        <motion.div className="md:my-5 md:w-3/5">
           <HText>MORE THAN JUST A GYM.</HText>
           <p className="my-5 text-sm">
             We are a community of people who are passionate about fitness and
             health. We are a family. We are a team. We are a community. We are
             here to help you achieve your goals.
           </p>
-        </div>
+        </motion.div>
 
         {/* BENEFITS */}
-        <div className="mt-5 items-center justify-between gap-8 md:flex">
+        <motion.div className="mt-5 items-center justify-between gap-8 md:flex"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={container}
+        >
           {benefits.map((benefit: BenefitType) => (
             <Benefit
               key={benefit.title}
@@ -59,7 +71,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           ))}
-        </div>
+        </motion.div>
       </motion.div>
     </section>
   );
