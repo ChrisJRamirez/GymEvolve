@@ -16,7 +16,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
-        <div></div>
+        <div>
+          
+        </div>
       </motion.div>
     </section>
   );
