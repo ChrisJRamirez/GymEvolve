@@ -66,7 +66,7 @@ const ourClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            At our gym, we offer a wide variety of classes to suit any fitness level, led by passionate and knowledgeable instructors. Our classes provide an energetic and motivating atmosphere to help you reach your fitness goals with the support and resources you need. Join us and experience a new way to get fit and have fun!
             </p>
           </div>
         </motion.div>
