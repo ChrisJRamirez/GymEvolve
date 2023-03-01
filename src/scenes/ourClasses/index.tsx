@@ -12,32 +12,32 @@ import Class from "./Class";
 const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    description: "Build strength and muscle with our challenging weight training classes.",
     image: image1,
   },
   {
-    name: "Cardio Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    name: "Yoga Classes",
+    description: "Relax, unwind and find your inner balance with our calming yoga classes 7-days a week.",
     image: image2,
   },
   {
-    name: "Yoga Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    name: "Core Classes",
+    description: "Strengthen your core and get that toned mid-section with our core classes.",
     image: image3,
   },
   {
     name: "Pilates Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    description: "Get fit and toned with low-impact Pilates classes.",
     image: image4,
   },
   {
     name: "Crossfit Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    description: "Reach your fitness goals fast with our intense CrossFit classes!",
     image: image5,
   },
   {
     name: "Zumba Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    description: "Dance your way to fitness with our fun and energetic Zumba classes!",
     image: image6,
   }
 ]
