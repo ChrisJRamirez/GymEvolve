@@ -14,19 +14,20 @@ const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "EvoGym is proud to offer our members access to state-of-the-art facilities and the latest fitness equipment.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "At EvoGym, we offer a wide variety of classes that cater to all levels of fitness, from beginner, intermediate and advanced.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "At EvoGym, our expert and professional trainers are dedicated to helping you reach your fitness goals every day.",
   },
 ];
 
@@ -128,18 +129,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                At EvoGym, we strive to provide our members with the best
+                fitness experience possible. We offer a variety of classes,
+                equipment, and amenities to help you reach your fitness goals.
+                Our knowledgeable staff is dedicated to helping you on your
+                journey, and providing you with the resources and support you
+                need to succeed.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                We provide a clean and friendly environment where you can work
+                out in comfort and safety.Joining evoGym is the perfect way to
+                begin your fitness journey and take the first step towards a
+                healthier and happier lifestyle.
               </p>
             </motion.div>
             {/* Button */}
