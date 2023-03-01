@@ -10,3 +10,10 @@ export interface BenefitType {
   title: string,
   description: string,
 };
+
+// ? means its optional
+export interface ClassType {
+  name: string,
+  description?: string,
+  image: string,
+};
